@@ -1,10 +1,16 @@
 # GCol-List
 GCol-List is a generic linked list library for C language.
 # Macros
-gcolList_destroyData_m: Allow dynamically allocated data to be freed when freeing a node.<br/>
-if the data does not to be freed, use "#undef gcolList_destroyData_m".<br/>
+```
+gcolList_destroyData_m: Allow dynamically allocated data to be freed when freeing a node.
+if the data does not to be freed, use "#undef gcolList_destroyData_m".
+```
+```
 gcolList_pushBack_m: Convert to given literal to a compound literal and passes the address of the resulting anonymous object to the gcolList_pushBack function.<br/>
+```
+```
 gcolList_pushFront_m: Same as pushBack_m<br/>
+```
 gcolList_insert_m: Same as pushBack_m<br/>
 gcolList_remove_m: Same as pushBack_m<br/>
 gcolList_search_m: Same as pushBack_m
