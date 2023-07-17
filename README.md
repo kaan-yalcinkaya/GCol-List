@@ -2,33 +2,33 @@
 GCol-List is a generic linked list library for C language.
 # Macros
 
-<b>gcolList_destroyData_m: Allow dynamically allocated data to be freed when freeing a node.<b/>
+<b>gcolList_destroyData_m: Allow dynamically allocated data to be freed when freeing a node.<b/><br/><br/>
 if the data does not to be freed, use "#undef gcolList_destroyData_m".
-gcolList_pushBack_m: Convert to given literal to a compound literal and passes the address of the resulting anonymous object to the gcolList_pushBack function.<br/>
-gcolList_pushFront_m: Same as pushBack_m<br/>
-gcolList_insert_m: Same as pushBack_m<br/>
-gcolList_remove_m: Same as pushBack_m<br/>
-gcolList_search_m: Same as pushBack_m
+gcolList_pushBack_m: Convert to given literal to a compound literal and passes the address of <br/>the resulting anonymous object to the gcolList_pushBack function.<br/><br/>
+gcolList_pushFront_m: Same as pushBack_m<br/><br/>
+gcolList_insert_m: Same as pushBack_m<br/><br/>
+gcolList_remove_m: Same as pushBack_m<br/><br/>
+gcolList_search_m: Same as pushBack_m<br/>
 
 # Type definations
-void*: void_ptr<br/>
-struct gcolList_s: gcolList_t<br/>
-struct gcolList_s*: gcolList_ptr
+void*: void_ptr<br/><br/>
+struct gcolList_s: gcolList_t<br/><br/>
+struct gcolList_s*: gcolList_ptr<br/>
 
 # Functions
-gcolList_initialize: Allocets memory for a list and initializes the list then return the address of new list.<br/>
-gcolList_destroy: Frees completed list and all nodes. If gcol_destroyData_m is defined, it also frees the data in the node.<br/>
-gcolList_pushBack: Adds the given data to the end of the list.<br/>
-gcolList_pushFront: Adds the given data to the beginning of the list.<br/>
-gcolList_insert: Adds the given data to the given index of the list.<br/>
-gcolList_popBack: Deletes the data at the end of the list.<br/>
-gcolList_popFront: Deletes the data at the beginning of the list.<br/>
-gcolList_delete: Deletes the data at the given index of the list.<br/>
-gcolList_remove: Deletes the given data from list.<br/>
-gcolList_search: Searches the given data in the list.<br/>
-gcolList_get: Returns the data at the given index of the list.<br/>
-gcolList_print: Prints the datas in the list.<br/>
-gcolList_size: Returns the number of elements in the list.<br/>
+gcolList_initialize: Allocets memory for a list and initializes the list then return the address of new list.<br/><br/>
+gcolList_destroy: Frees completed list and all nodes. If gcol_destroyData_m is defined, it also frees the data in the node.<br/><br/>
+gcolList_pushBack: Adds the given data to the end of the list.<br/><br/>
+gcolList_pushFront: Adds the given data to the beginning of the list.<br/><br/>
+gcolList_insert: Adds the given data to the given index of the list.<br/><br/>
+gcolList_popBack: Deletes the data at the end of the list.<br/><br/>
+gcolList_popFront: Deletes the data at the beginning of the list.<br/><br/>
+gcolList_delete: Deletes the data at the given index of the list.<br/><br/>
+gcolList_remove: Deletes the given data from list.<br/><br/>
+gcolList_search: Searches the given data in the list.<br/><br/>
+gcolList_get: Returns the data at the given index of the list.<br/><br/>
+gcolList_print: Prints the datas in the list.<br/><br/>
+gcolList_size: Returns the number of elements in the list.<br/><br/>
 
 # Sample Code
 
