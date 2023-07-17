@@ -11,9 +11,9 @@ gcolList_remove_m: Same as pushBack_m<br/><br/>
 gcolList_search_m: Same as pushBack_m<br/>
 
 # Type definations
-void*: void_ptr<br/><br/>
-struct gcolList_s: gcolList_t<br/><br/>
-struct gcolList_s*: gcolList_ptr<br/>
+```void*: void_ptr```<br/><br/>
+```struct gcolList_s: gcolList_t```<br/><br/>
+```struct gcolList_s*: gcolList_ptr```<br/>
 
 # Functions
 gcolList_initialize: Allocets memory for a list and initializes the list then return the address of new list.<br/><br/>
